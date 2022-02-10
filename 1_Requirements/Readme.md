@@ -11,8 +11,19 @@ straightforward than any time in recent memory.
 
 ## Features
 1) Sign Up for New User
-2) Login for old user
+2) Login for existing user
 3) Seat Reservation
 4) Details of available trains
 5) Cancellation
 
+## High Level Requirements
+- Sign Up for New User 
+- Login Form for existing user
+- Booking for Seat Reservation 
+- Details of Available Trains With time
+- Priting Ticket with User Name, Number of seats and
+  total amount
+
+## Low Level Requirements
+- User Name and Passoword
+- Cancellation of the tickets
