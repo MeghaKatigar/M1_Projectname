@@ -1,0 +1,39 @@
+Checking main.c ...
+main.c:117:2: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+ fflush(stdin);
+ ^
+main.c:341:3: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+  fflush(stdin);
+  ^
+main.c:118:2: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+ scanf("%s",pass_details.name);
+ ^
+main.c:308:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s", user_name);
+    ^
+main.c:310:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s",pass_word);
+    ^
+main.c:372:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s",lg.fname);
+    ^
+main.c:374:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s",lg.lname);
+    ^
+main.c:378:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s",lg.username);
+    ^
+main.c:380:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s",lg.password);
+    ^
+main.c:45:18: style: Unused variable: choice_return [unusedVariable]
+ int menu_choice,choice_return;
+                 ^
+main.c:337:5: style: Unused variable: pass_details [unusedVariable]
+ pd pass_details;
+    ^
+main.c:356:10: style: Unused variable: firstname [unusedVariable]
+    char firstname[15];
+         ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
