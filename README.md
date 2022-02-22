@@ -5,5 +5,8 @@ The rail route reservation framework works with the travelers to enquiry about t
 # Code Quality - Codacy
 ## [![Codacy Badge](https://app.codacy.com/project/badge/Grade/24d0731372374389b40c2135c8098b28)](https://www.codacy.com/gh/MeghaKatigar/M1_Train_Reservation-/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MeghaKatigar/M1_Train_Reservation-&amp;utm_campaign=Badge_Grade)
 
+
+[![Codacy Security Scan](https://github.com/MeghaKatigar/M1_Train_Reservation-/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/MeghaKatigar/M1_Train_Reservation-/actions/workflows/codacy-analysis.yml)
+
 #SWOT Analysis
 ![SWOT_ANALYSIS](https://user-images.githubusercontent.com/98883965/155124492-ad8bf594-8851-4ed4-ade8-5128f73b183a.JPG)
